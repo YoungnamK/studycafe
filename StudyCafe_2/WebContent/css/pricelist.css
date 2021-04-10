@@ -1,0 +1,125 @@
+@import
+	url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
+
+
+body{ 
+	padding: 0; 
+	margin: 0; 
+	font-family: "Raleway", Sans-serif;
+	font-size: 13px; 
+	color: #333;
+}
+
+html {
+	overflow-y:scroll;
+}
+ 
+select,input{
+	vertical-align:middle;
+	text-align:left;
+}
+
+form legend, table caption{
+	width:0;
+	height:0;
+	font-size:0;
+	text-indent:-9999px;
+	line-height:0;
+}
+
+
+textarea{
+	font-size:12px;
+	overflow:auto;
+}
+
+table,div{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+
+ul,li,ol{
+	list-style:none;
+}
+
+hr{
+	overflow:hidden;
+	height:0;
+	width:0;
+	border:0 none;
+}
+
+li,p,dt,dd,div,span{
+	white-space:normal;
+}
+	
+body,div{
+	font-family:"Raleway", Sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+input,select,textarea{
+	padding:0; 
+	margin:0;
+	font-family:"Raleway", Sans-serif;
+	font-size:12px;
+	color:#333333;
+	border:1px solid #d7d7d7;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+
+img{
+	border:none;
+}
+
+
+/* layout */
+#contents{clear:both}
+#sub{clear:both;}
+
+.article_title{margin:100px 0 0 0}
+.article_title h3{font-size:32px;font-weight:400;text-align:center;padding:0 0 20px 0}
+.article_title p{font-size:16px;color:#6f6f6f;line-height:23px;text-align:center;margin:20px 0 40px 0;}
+
+
+
+.guideinfo{clear:both;width:1200px;margin:0 auto;border-bottom:1px solid #eaeaea;}
+.guideinfo h4{float:left;color:#ffb400;font-size:22px;width:190px;padding:40px 30px }
+.guideinfo h5{float:left;font-size:17px;margin:20px 0 10px 0}
+.guideinfo ul{float:left;padding:30px 0 30px 30px;border-left:1px solid #eaeaea; text-align:center;}
+.guideinfo li{clear:both;font-size:15px;line-height:28px;color:#6f6f6f;margin:10px 0; text-align:center;}
+.guideinfo b{color:#333;font-size:17px;}
+.guideinfo li.part1{float:right;margin:0 0 10px 0}
+.guideinfo li.part2{float:right;margin:0 0 10px 0}
+.guideinfo table{clear:both;border-top:1px solid #7e7e7e;margin:15px 0;width:900px}
+.guideinfo th{background:#f9f9fa;border-right:1px solid #d6d6d6;text-align:center;height:45px;border-bottom:1px solid #e5e5e5;font-size:14px;padding:15px 0}
+.guideinfo td{color:#868686;text-align:center;height:45px;line-height:25px;border-bottom:1px solid #e5e5e5;border-right:1px solid #d6d6d6;font-size:14px;padding:20px 0 20px 15px;}
+.guideinfo th:last-child{border-right-width:0}
+.guideinfo td:last-child{border-right-width:0}
+.guideinfo td.type01{text-align:center;padding:20px 0 20px 15px;line-height:25px}
+.guideinfo td.type02{text-align:center;padding:20px 0 ;line-height:25px;background:#fff8e6;color:red}
+.guideinfo th.type01{text-align:left;padding:5px 0 5px 25px}
+.guideinfo th.type02{text-align:left;padding:5px 0 5px 25px;font-weight:normal;}
+
+.common_btn{color:#fff;cursor:pointer;clear:both;text-align:center;background:#ffb400;font-size:25px;font-weight:400;margin:50px auto 200px auto;width:600px;padding:35px 0;}
+.common_btn a{color:#fff;}
+.common_btn a:hover{text-decoration:none;color:#fff;font-weight:900}
+.common_btn2{cursor:pointer;clear:both;text-align:center;background:#3d454b;font-size:18px;font-weight:400;margin:50px auto;width:220px;padding:15px 0;color:#fff}
+.common_btn3{cursor:pointer;clear:both;text-align:center;background:#eeeeee;font-size:18px;font-weight:400;margin:50px auto;width:220px;padding:15px 0;color:#3d454b}
+.common_btn4{cursor:pointer;clear:both;text-align:center;background:#ffb400;font-size:18px;font-weight:400;margin:50px auto;width:280px;padding:25px 0;color:#fff}
+.common_btn5{cursor:pointer;clear:both;text-align:center;background:#1ec800;font-size:18px;font-weight:400;margin:50px auto;width:280px;padding:22px 0;color:#fff}
+.common_btn8{cursor:pointer;clear:both;text-align:center;background:#fbe300;font-size:18px;font-weight:400;margin:50px auto;width:280px;padding:22px 0;color:#3b1e1e}
+
+.common{clear:both;margin: 0 0 50px 0}
+.common ul{width:1000px;margin:0 auto;text-align:center}
+.common h2{text-align:center;font-size:28px;padding:0 0 20px 0}
+.common li{display:inline-block;}
+
+
